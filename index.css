@@ -1,0 +1,178 @@
+js ne ucundur?
+
+JavaScript, veb inkişafında geniş istifadə olunan bir proqramlaşdırma dilidir. Əsasən dinamik və qarşılıqlı veb saytların yaradılmasında istifadə olunur. JavaScript-in əsas xüsusiyyətləri bunlardır:
+
+Müştəri Tərəfli Proqramlaşdırma: JavaScript, veb səhifələrdə müştəri tərəfdə işləyir, yəni istifadəçinin brauzerində kodu icra edir. Bu, səhifənin dinamikliyini artırır və istifadəçi ilə interaktivliyi təmin edir.
+
+Əsas Veb Texnologiyaları ilə İntegrasiya: JavaScript, HTML və CSS ilə birlikdə işləyir. HTML səhifənin strukturunu, CSS isə dizaynını təyin edir, JavaScript isə səhifənin dinamik funksiyalarını həyata keçirir.
+
+Yüklənmə Sürəti və Performans: JavaScript kodu brauzer tərəfindən tez bir zamanda icra edilir, bu da veb səhifələrin daha sürətli yüklənməsinə və qarşılıqlı fəaliyyətə imkan tanıyır.
+
+Server Tərəfi Proqramlaşdırma: Node.js kimi mühitlərdə JavaScript server tərəfdə də istifadə edilə bilər. Bu, server tərəfi proqramlaşdırma üçün JavaScript-in istifadəsini genişləndirir.
+
+Kitabxanalar və Çərçivələr: JavaScript-in müxtəlif kitabxana və çərçivələri (məsələn, React, Angular, və Vue.js) var ki, bunlar veb inkişafını asanlaşdırır və sürətləndirir.
+
+Təhlükəsizlik: JavaScript, brauzer mühitində işlədiyi üçün təhlükəsizlik məsələlərinə diqqət yetirmək vacibdir. Xüsusilə XSS (Cross-Site Scripting) hücumlarından qorunmaq üçün düzgün kodlaşdırma prinsiplərinə riayət etmək lazımdır.
+
+JavaScript, veb inkişafında çox vacib bir rol oynayır və müasir veb proqramlaşdırma təcrübələrinin ayrılmaz bir hissəsidir.
+
+
+
+
+Javascript browserde neleri ede bilir, neleri ede bilmir-?
+
+JavaScript Brauzer Müxtəliflərində Edə Bildikləri:
+DOM Manipulyasiyası: HTML sənədinin strukturu ilə qarşılıqlı əlaqə quraraq elementlərin əlavə edilməsi, silinməsi və dəyişdirilməsi.
+
+CSS ilə İnteraksiya: Elementlərin stilini dəyişdirmək və ya dinamik olaraq CSS siniflərini əlavə etmək/silmək.
+
+Event Handling: İstifadəçi fəaliyyətlərinə (kliklər, düymə basma, hover və s.) reaksiya vermək üçün hadisə dinləyiciləri əlavə etmək.
+
+Form Handling: Form məlumatlarını toplamaq, yoxlamaq və göndərmək, həmçinin istifadəçi daxil etmələrini dinamik olaraq yoxlamaq.
+
+AJAX və Fetch API: Serverlə asinxron olaraq məlumat mübadiləsi etmək, beləliklə səhifəni yeniləmədən məlumatları əldə etmək və göndərmək.
+
+LocalStorage və SessionStorage: Brauzer tərəfindən saxlanılan məlumatları (açar-dəyər cütləri) yaddaşda saxlamaq və əldə etmək. LocalStorage məlumatları uzunmüddətli, SessionStorage isə sessiya müddətinə xasdır.
+
+Cookies İdarəetmə: Brauzer çərəzləri ilə qarşılıqlı əlaqə qurmaq, onları oxumaq və yazmaq.
+
+Geolocation API: İstifadəçinin coğrafi mövqeyini əldə etmək və istifadə etmək (istifadəçi razılığı ilə).
+
+WebSockets: Real vaxtlı, iki tərəfli əlaqə yaratmaq üçün serverlə əlaqə qurmaq.
+
+Canvas və SVG: Vektor qrafiklər və rəsm çəkmək üçün Canvas API və SVG ilə şəkillər yaratmaq.
+
+Web Storage: Web Storage API istifadə edərək məlumatları müvəqqəti saxlamaq.
+
+Web Workers: Paralel işlər aparmaq üçün fon işçiləri yaratmaq, bu da əsas icra prosesini bloklamadan uzun müddətli əməliyyatları yerinə yetirməyə imkan tanıyır.
+
+JavaScript Brauzer Müxtəliflərində Edə Bilmədikləri:
+Fayl Sistemi İlə Birbaşa İnteqrasiya: JavaScript brauzer mühitində yerli fayl sisteminə birbaşa daxil ola bilmir. İstifadəçilərin lokal fayllarını oxumaq və yazmaq yalnız File API vasitəsilə mümkündür və buna müəyyən məhdudiyyətlər tətbiq edilir.
+
+Server Tərəfi Funksiyaları: Serverdə yerinə yetirilən əməliyyatlar (məsələn, verilənlər bazası əməliyyatları) JavaScript tərəfindən birbaşa həyata keçirilə bilmir. Bunun üçün server tərəfi texnologiyaları (Node.js, PHP, Python, və s.) istifadə olunur.
+
+Hardware İnteqrasiyası: Brauzer JavaScript-i birbaşa hardware komponentlərinə (məsələn, printerlər, skanerlər və s.) daxil olmaq və ya onları idarə etmək üçün istifadə edilə bilmir.
+
+İstifadəçi İcazəsi Olmadan Məlumat Toplama: JavaScript istifadəçilərin şəxsiyyətini, şifrələrini və digər həssas məlumatları icazəsiz əldə edə bilmir.
+
+Gizlilik və Təhlükəsizlik Məhdudiyyətləri: Xüsusi təhlükəsizlik tədbirləri sayəsində JavaScript digər domenlərin məlumatlarına (cross-origin) daxil ola bilmir. Bu, CORS (Cross-Origin Resource Sharing) siyasəti ilə qorunur.
+
+Low-Level Sistem Çağırışları: JavaScript brauzer mühitində aşağı səviyyəli sistem əməliyyatlarını (məsələn, memory management, native system calls) birbaşa yerinə yetirə bilmir.
+
+JavaScript-in brauzer mühitindəki funksionallığı geniş olsa da, təhlükəsizlik və performans səbəbləri ilə müəyyən məhdudiyyətlər qoyulur. Bu məhdudiyyətlər istifadəçilərin məlumatlarının qorunmasını təmin etməyə və brauzer performansını optimallaşdırmağa kömək edir.
+
+
+
+
+Javscript variables-?
+
+
+JavaScript-də dəyişənlər (variables) proqramın müxtəlif yerlərində dəyər saxlamaq və istifadə etmək üçün istifadə olunur. JavaScript-də dəyişənləri təyin etmək və istifadə etmək üçün əsas anlayışlar və sintaksis aşağıdakı kimidir:
+
+Dəyişənlərin Təyin Edilməsi
+JavaScript-də dəyişənləri təyin etmək üçün üç əsas açar sözdən istifadə olunur: var, let, və const.
+
+var:
+
+Ənənəvi dəyişən təyin etmə üsuludur.
+Dəyişənlər funksiyanın daxilində təyin edildikdə yalnız həmin funksiyanın daxilində görünür (function scope).
+var ilə təyin edilmiş dəyişənlər "hoisting" (yüksəlmə) xüsusiyyətinə malikdir, yəni dəyişənlər funksiyanın başında təyin olunmamış kimi görünə bilər.
+
+let:
+
+ECMAScript 6 (ES6) ilə tanıdılıb.
+Dəyişənləri blok səviyyəsində təyin edir (block scope), yəni dəyişən yalnız onun təyin edildiyi blok daxilində görünür.
+let ilə təyin edilmiş dəyişənlər "hoisting" xüsusiyyətinə malikdir, amma başlanğıc dəyəri olmadan istifadə edilə bilməz.
+
+const:
+
+ECMAScript 6 (ES6) ilə tanıdılıb.
+Dəyişənlərin dəyişməz (immutable) olmasını təmin edir. Bu, bir dəfə dəyər təyin edildikdən sonra dəyişə bilməz.
+const ilə təyin edilmiş dəyişənlər də blok səviyyəsindədir (block scope).
+
+
+
+type cevrilmesi-?
+
+
+
+JavaScript-də tip çevrilməsi (type conversion), bir dəyişənin bir tipdən digərinə çevrilməsi prosesidir. JavaScript dinamik tipli bir dil olduğu üçün, dəyişənlərin tipləri avtomatik olaraq çevrilə bilər. Tip çevrilməsi iki əsas şəkildə baş verir: avtomatik (implicit) və süni (explicit).
+
+Avtomatik Tip Çevrilməsi (Implicit Type Conversion)
+Avtomatik tip çevrilməsi, JavaScript-in bir dəyişənin tipini avtomatik olaraq digər tipə çevirməsi ilə baş verir. Bu, JavaScript-in operatörlərin və funksiyaların müxtəlif tipdəki dəyərlərlə işləməsi üçün tipləri avtomatik çevirməsi deməkdir.
+
+
+Variable type
+
+JavaScript-də dəyişənlərin tipləri müxtəlif məlumat növlərini təmsil edir. Dəyişənlərin tipləri, verilənlərin necə saxlanıldığını və onlarla necə əməliyyat aparıldığını müəyyən edir. JavaScript-də tiplər iki əsas kateqoriyaya ayrılır: primitiv tiplər və obyekt tiplər.
+
+Primitiv Tiplər
+Primitiv tiplər sadə, dəyişməz (immutable) dəyərləri təmsil edir. Bunlar aşağıdakılardır:
+
+String:
+
+Mətn məlumatlarını təmsil edir.
+Tək dırnaq ('), iki dırnaq ("), və ya şablon dırnaqları (``) ilə yaradılır.
+
+
+
+
+Number:
+İki əsas növ: tam ədədlər və onluq ədədlər (float).
+JavaScript-də bütün ədədlər ikili formatda saxlanılır (IEEE 754 standartına əsaslanır).
+
+
+BigInt:
+
+Böyük ədədləri təmsil edir, Number tipi ilə saxlanıla bilməyəcək qədər böyük ədədlər üçün istifadə olunur.
+
+
+Boolean:
+
+İki dəyərdən birini təmsil edir: true və false.
+
+Undefined:
+
+Dəyişən təyin edildiyi halda ona heç bir dəyər verilmədikdə JavaScript avtomatik olaraq bu tipi təyin edir.
+
+
+Null:
+
+Məqsədli olaraq "heç bir dəyər" təmsil edir.
+Bu, boşluğu ifadə etmək üçün istifadə olunu
+
+
+
+Symbol:
+
+Unikal və dəyişməz (immutable) identifikatorları təmsil edir.
+Simvollar obyektləri açar kimi istifadə olunur və dublikatlar yaratmaq üçün idealdır.
+
+
+Obyekt tipləri ------- daha mürəkkəb məlumatları təmsil edir və bir neçə dəyəri bir yerdə saxlaya bilir. Obyekt tipləri aşağıdakılardır:
+
+Object:
+
+Özəlliklər (properties) və metodlar (functions) saxlayan əsas obyekt növüdür.
+
+Array:
+
+Elementlərin sıralandığı və indeksləşdirildiyi obyekt növüdür.
+
+
+Date:
+
+Tarix və vaxt məlumatlarını təmsil edir.
+
+RegExp:
+
+Müntəzəm ifadələr (regular expressions) təmsil edir.
+
+
+Map:
+
+Açar-dəyər cütlərini saxlamağa imkan tanıyır.
+
+Set:
+
+Unikal dəyərləri saxlayır.
